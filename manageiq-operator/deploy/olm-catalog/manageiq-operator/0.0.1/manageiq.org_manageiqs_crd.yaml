@@ -122,7 +122,7 @@ spec:
             kafkaCpuRequest:
               description: 'Kafka deployment CPU request (default: no request)'
               type: string
-            kafkaCpulimit:
+            kafkaCpuLimit:
               description: 'Kafka deployment CPU limit (default: no limit)'
               type: string
             kafkaImage:
@@ -280,7 +280,7 @@ spec:
             zookeeperCpuRequest:
               description: 'Zookeeper deployment CPU request (default: no request)'
               type: string
-            zookeeperCpulimit:
+            zookeeperCpuLimit:
               description: 'Zookeeper deployment CPU limit (default: no limit)'
               type: string
             zookeeperImage:

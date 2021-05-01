@@ -252,7 +252,7 @@ type ManageIQSpec struct {
 	KafkaVolumeCapacity string `json:"kafkaVolumeCapacity"`
 	// Kafka deployment CPU limit (default: no limit)
 	// +optional
-	KafkaCpuLimit string `json:"kafkaCpulimit"`
+	KafkaCpuLimit string `json:"kafkaCpuLimit"`
 	// Kafka deployment CPU request (default: no request)
 	// +optional
 	KafkaCpuRequest string `json:"kafkaCpuRequest"`
@@ -278,7 +278,7 @@ type ManageIQSpec struct {
 	ZookeeperVolumeCapacity string `json:"zookeeperVolumeCapacity"`
 	// Zookeeper deployment CPU limit (default: no limit)
 	// +optional
-	ZookeeperCpuLimit string `json:"zookeeperCpulimit"`
+	ZookeeperCpuLimit string `json:"zookeeperCpuLimit"`
 	// Zookeeper deployment CPU request (default: no request)
 	// +optional
 	ZookeeperCpuRequest string `json:"zookeeperCpuRequest"`
